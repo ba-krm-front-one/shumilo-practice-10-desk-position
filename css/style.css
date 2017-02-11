@@ -1,0 +1,185 @@
+body{
+	box-sizing: border-box;
+}
+
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+body {
+	background-color: rgba(246,134,0,0.2);
+}
+.ba-main {
+	margin: auto;
+	margin-top: 10px;
+	width: 52%;
+	height: 590px;
+	position: relative;
+	border: 1px solid black;
+}
+.ba-main_container {
+	width: 12.5%;
+	background-color: black;
+	position: absolute;
+	height: 12.5%;
+}
+
+.ba-main_container:nth-child(2) {
+	margin-left: 25%;
+}
+.ba-main_container:nth-child(3) {
+	margin-left: 50%;
+}
+.ba-main_container:nth-child(4) {
+	margin-left: 75%;
+}
+.ba-main_container:nth-child(5) {
+	margin-top: 10.5%;
+	margin-left: 12.5%;
+}
+.ba-main_container:nth-child(6) {
+	margin-left: 37.5%;
+	margin-top: 10.5%;
+}
+.ba-main_container:nth-child(7) {
+	margin-left: 62.5%;
+	margin-top: 10.5%;
+}
+.ba-main_container:nth-child(8) {
+	margin-left: 87.5%;
+	margin-top: 10.5%;
+}
+.ba-main_container:nth-child(9) {
+	margin-top: 21%;
+}
+.ba-main_container:nth-child(10) {
+	margin-top: 21%;
+	margin-left: 25%;
+}
+.ba-main_container:nth-child(11) {
+	margin-top: 21%;
+	margin-left: 50%;
+}
+.ba-main_container:nth-child(12) {
+	margin-top: 21%;
+	margin-left: 75%;
+}
+.ba-main_container:nth-child(13) {
+	margin-top: 31.5%;
+	margin-left: 12.5%;
+}
+.ba-main_container:nth-child(14) {
+	margin-top: 31.5%;
+	margin-left: 37.5%;
+}
+.ba-main_container:nth-child(15) {
+	margin-top: 31.5%;
+	margin-left: 62.5%;
+}
+.ba-main_container:nth-child(16) {
+	margin-top: 31.5%;
+	margin-left: 87.5%;
+}
+.ba-main_container:nth-child(17) {
+	margin-top: 42%;
+}
+.ba-main_container:nth-child(18) {
+	margin-top: 42%;
+	margin-left: 25%;
+}
+.ba-main_container:nth-child(19) {
+	margin-top: 42%;
+	margin-left: 50%;
+}
+.ba-main_container:nth-child(20) {
+	margin-top: 42%;
+	margin-left: 75%;
+}
+.ba-main_container:nth-child(21) {
+	margin-top: 52.5%;
+	margin-left: 12.5%;
+}
+.ba-main_container:nth-child(22) {
+	margin-top: 52.5%;
+	margin-left: 37.5%;
+}
+.ba-main_container:nth-child(23) {
+	margin-top: 52.5%;
+	margin-left: 62.5%;
+}
+.ba-main_container:nth-child(24) {
+	margin-top: 52.5%;
+	margin-left: 87.5%;
+}
+.ba-main_container:nth-child(25) {
+	margin-top: 63%;
+}
+.ba-main_container:nth-child(26) {
+	margin-top: 63%;
+	margin-left: 25%;
+}
+.ba-main_container:nth-child(27) {
+	margin-top: 63%;
+	margin-left: 50%;
+}
+.ba-main_container:nth-child(28) {
+	margin-top: 63%;
+	margin-left: 75%;
+}
+.ba-main_container:nth-child(29) {
+	margin-top: 73.5%;
+	margin-left: 12.5%;
+}
+.ba-main_container:nth-child(30) {
+	margin-top: 73.5%;
+	margin-left: 37.5%;
+}
+.ba-main_container:nth-child(31) {
+	margin-top: 73.5%;
+	margin-left: 62.5%;
+}
+.ba-main_container:nth-child(32) {
+	margin-top: 73.5%;
+	margin-left: 87.5%;
+}
+.ba-main_container_inner--brown, .ba-main_container_inner--red {
+	width: 80%;
+	height: 80%;
+	margin: auto;
+	margin-top: 7%;
+	border-radius: 50%;
+}
+.ba-main_container_inner--brown {
+	background-color: #611400;
+}
+.ba-main_container_inner--brown:hover, .ba-main_container_inner--red:hover {
+	box-shadow: 0 0 10px rgba(255,255,255,0.7);
+}
+.ba-main_container_inner--red {
+	background-color: rgba(213,0,11,0.84);
+}
